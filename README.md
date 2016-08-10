@@ -3,8 +3,8 @@ scholar.py
 
 Modification on Christian's initial scholar.py scripts
 
--- JSON document parsing
--- paywall id
+- JSON document parsing
+- paywall id
 
 Features
 --------
