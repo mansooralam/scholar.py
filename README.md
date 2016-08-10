@@ -1,12 +1,10 @@
 scholar.py
 ==========
 
-scholar.py is a Python module that implements a querier and parser for Google Scholar's output. Its classes can be used independently, but it can also be invoked as a command-line tool.
+Modification on Christian's initial scholar.py scripts
 
-The script used to live at http://icir.org/christian/scholar.html, and I've moved it here so I can more easily manage the various patches and suggestions I'm receiving for scholar.py. Thanks guys, for all your interest! If you'd like to get in touch, email me at christian@icir.org or ping me [on Twitter](http://twitter.com/ckreibich).
-
-Cheers,<br>
-Christian
+-- JSON document parsing
+-- paywall id
 
 Features
 --------
@@ -18,14 +16,6 @@ Features
 * Supports retrieval of citation details in standard external formats as provided by Google Scholar, including BibTeX and EndNote.
 * Command-line tool prints entries in CSV format, simple plain text, or in the citation export format.
 * Cookie support for higher query volume, including ability to persist cookies to disk across invocations.
-
-Note
-----
-
-I will always strive to add features that increase the power of this
-API, but I will never add features that intentionally try to work
-around the query limits imposed by Google Scholar. Please don't ask me
-to add such features.
 
 Examples
 --------
